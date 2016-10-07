@@ -29,7 +29,7 @@ function createtemplate(data)
 {
     
 var date=data.date;
-var heading=data.geading;
+var heading=data.heading;
 var title=data.title;
 var content=data.content;
 var htmltemplate=
