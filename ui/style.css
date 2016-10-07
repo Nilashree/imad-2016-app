@@ -26,8 +26,8 @@ body {
 max-width: 1500px;
     margin: 0 auto;
     font-family: verdana;
-    color: grey;
-    background-color: #ce19c8;
+    color: white;
+  /*  background-color: #ce19c8;*/
     padding-left: 90px;
     padding-right: 90px;
     padding-top: 30px;
