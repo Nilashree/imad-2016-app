@@ -80,12 +80,13 @@ var content=data.content;
 var htmltemplate=
     `<html>
 <head>
- <div style="background-color:lightyellow">
+ 
 <title>
+<div style="background-color:lightyellow">
    ${title}
-   
+  </div> 
 </title>
-</div>
+
     <meta name="viewport" content="width=device-width,initial_scale=1"/> 
     <link href="/ui/style.css" rel="stylesheet" />
 
