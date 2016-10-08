@@ -32,7 +32,10 @@ var examples={
     heading:'Example-Two',
     date:'07/10/2016',
     content: 
-        `<p>
+    
+        `
+        <div style="background-color:lightyellow">
+        <p>
         Hello everyone !! This is my second html example.Hello everyone !! 
         Hello everyone !! This is my second html example.Hello everyone !! 
         </p>   
@@ -42,8 +45,9 @@ var examples={
     </p>
     <p>
     Trying to be a web developer soon.Trying to be a web developer soon.Trying to be a web developer soon.Trying to be a web developer soon
-    </p>`
-        
+    </p>
+    </div>`
+       
     },
 'example-three':
     {
