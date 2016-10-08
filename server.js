@@ -33,8 +33,8 @@ var examples={
     date:'07/10/2016',
     content: 
         `<p>
-        Hello everyone !! This is my second html example.Hello everyone !! This is my first html example.
-        Hello everyone !! This is my second html example.Hello everyone !! This is my first html example.
+        Hello everyone !! This is my second html example.Hello everyone !! 
+        Hello everyone !! This is my second html example.Hello everyone !! 
         </p>   
     <p>
         Growing learning it.
