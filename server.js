@@ -82,9 +82,9 @@ var htmltemplate=
 <head>
  
 <title>
-<div style="background-color:lightyellow">
+
    ${title}
-  </div> 
+   
 </title>
 
     <meta name="viewport" content="width=device-width,initial_scale=1"/> 
@@ -100,8 +100,9 @@ var htmltemplate=
 </div>
 <div class="displayer" style="background-color:lightgreen">
 <h2 >
-
-${heading}    
+<div style="background-color:lightyellow">
+${heading}  
+</div>
 </h2>
 <div>
    ${date}
