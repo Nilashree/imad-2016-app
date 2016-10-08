@@ -26,7 +26,7 @@ var examples={
      Trying to be a web developer soon.Trying to be a web developer soon.Trying to be a web developer soon.     
     </p>`
 },
-'examples-two':
+'example-two':
     { 
     title:'Example-Two|Nilashree Shirodkar',
     heading:'Example-Two',
