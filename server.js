@@ -28,13 +28,14 @@ var examples={
 },
 'example-two':
     { 
+         
     title:'Example-Two|Nilashree Shirodkar',
     heading:'Example-Two',
     date:'07/10/2016',
     content: 
     
         `
-        <div style="background-color:lightyellow">
+       
         <p>
         Hello everyone !! This is my second html example.Hello everyone !! 
         Hello everyone !! This is my second html example.Hello everyone !! 
@@ -46,7 +47,7 @@ var examples={
     <p>
     Trying to be a web developer soon.Trying to be a web developer soon.Trying to be a web developer soon.Trying to be a web developer soon
     </p>
-    </div>`
+  `
        
     },
 'example-three':
@@ -79,9 +80,12 @@ var content=data.content;
 var htmltemplate=
     `<html>
 <head>
+ <div style="background-color:lightyellow">
 <title>
    ${title}
-</title> 
+   
+</title>
+</div>
     <meta name="viewport" content="width=device-width,initial_scale=1"/> 
     <link href="/ui/style.css" rel="stylesheet" />
 
