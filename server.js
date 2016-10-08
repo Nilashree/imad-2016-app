@@ -100,7 +100,7 @@ var htmltemplate=
 </div>
 <div class="displayer" style="background-color:lightgreen">
 <h2 >
-<div style="background-color:lightyellow">
+<div class="Background">
 ${heading}  
 </div>
 </h2>
