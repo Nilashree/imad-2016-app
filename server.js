@@ -5,7 +5,9 @@ var path = require('path');
 var app = express();
 app.use(morgan('combined'));
 
-var exampleone={
+var examples={
+'example-one': 
+    {
     title:'Example-one|Nilashree Shirodkar',
     heading:'Example-one',
     date:'07/10/2016',
@@ -23,6 +25,44 @@ var exampleone={
     Trying to be a web developer soon.Trying to be a web developer soon.Trying to be a web developer soon.Trying to be a web developer soon.Trying to be a web developer soon.
      Trying to be a web developer soon.Trying to be a web developer soon.Trying to be a web developer soon.     
     </p>`
+},
+'examples-two':
+    { 
+    title:'Example-Two|Nilashree Shirodkar',
+    heading:'Example-Two',
+    date:'07/10/2016',
+    content: 
+        `<p>
+        Hello everyone !! This is my second html example.Hello everyone !! This is my first html example.
+        Hello everyone !! This is my second html example.Hello everyone !! This is my first html example.
+        </p>   
+    <p>
+        Growing learning it.
+        
+    </p>
+    <p>
+    Trying to be a web developer soon.Trying to be a web developer soon.Trying to be a web developer soon.Trying to be a web developer soon
+    </p>`
+        
+    },
+'example-three':
+    {
+    title:'Example-Three|Nilashree Shirodkar',
+    heading:'Example-Three',
+    date:'07/10/2016',
+    content: 
+        `<p>
+        Hello everyone !! This is my third html example.Hello everyone !! This is my first html example.
+       
+        </p>   
+    <p>
+        Growing learning it.
+        
+    </p>
+    <p>
+    Trying to be a web developer soon.Trying to be a web developer soon.Trying to be a web developer soon.Trying to be a web developer soon
+    </p>`
+        }
 };
 
 function createtemplate(data)
@@ -68,13 +108,13 @@ ${heading}
     `;
     return htmltemplate;
 }
-
+app.get('/:exampleName',function(req,res)
+{
+    var exampleName=req.params.exampleName;
+      res.send(createtemplate(examples[exampleName]));
+});
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
-});
-app.get('/example-one', function (req, res) {
-
-  res.send(createtemplate(exampleone));
 });
 
 
